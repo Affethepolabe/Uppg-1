@@ -2,7 +2,7 @@ tal = []
 notal = int(input("Hur många tal vill du mata in?: "))
 i = 1
 while i <= notal:
-    tal.append(int(input(f"tal {i}:")))
+    tal.append(int(input(f"tal {i}:")))     
     i += 1
 tal.sort()
 summa = sum(tal)
