@@ -1,5 +1,6 @@
 tal = []
 import statistics
+import math
 notal = int(input("Hur många tal vill du mata in?: "))
 i = 1
 while i <= notal:
